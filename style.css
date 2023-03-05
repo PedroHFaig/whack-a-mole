@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  display: grid;
+  width: 144rem;
+  align-items: center;
+  justify-items: center;  
+}
+
+main {
+  position: absolute;
+  display: grid;  
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 5.4rem;
+}
+
+.hole5 img,
+.hole3 img,
+.hole12 img {
+position: absolute;
+}
+
+/* Frist hole to slideout (hole5) */
+.m1 {  
+  animation: mole 70ms;
+  animation-delay: 500ms;
+  opacity: 0;
+}
+.m2 {
+  animation: mole 70ms;
+  animation-delay: 570ms;
+  opacity: 0;
+}
+.m3 {
+  animation: mole 70ms;
+  animation-delay: 640ms;
+  opacity: 0;
+}
+.m4 {
+  animation: mole 70ms;
+  animation-delay: 710ms;
+  opacity: 0;
+}
+.m5 {
+  animation: mole 70ms;
+  animation-delay: 780ms;
+  opacity: 0;
+}
+
+/* Second hole to slideout (hole3) */
+.n1 {
+  animation: mole 70ms;
+  animation-delay: 2500ms;
+  opacity: 0;
+}
+
+.n2 {
+  animation: mole 70ms;
+  animation-delay: 2570ms;
+  opacity: 0;
+}
+.n3 {
+  animation: mole 70ms;
+  animation-delay: 2640ms;
+  opacity: 0;
+}
+.n4 {
+  animation: mole 70ms;
+  animation-delay: 2710ms;
+  opacity: 0;
+}
+.n5 {
+  animation: mole 70ms;
+  animation-delay: 2780ms;
+  opacity: 0;
+}
+
+/* Third hole to slideout (hole12) */
+.o1 {
+  animation: mole 70ms;
+  animation-delay: 5270ms;
+  opacity: 0;
+}
+.o2 {
+  animation: mole 70ms;
+  animation-delay: 5340ms;
+  opacity: 0;
+}
+.o3 {
+  animation: mole 70ms;
+  animation-delay: 5410ms;
+  opacity: 0;
+}
+.o4 {
+  animation: mole 70ms;
+  animation-delay: 5480ms;
+  opacity: 0;
+}
+.o5 {
+  animation: mole 70ms;
+  animation-delay: 5550ms;
+  opacity: 0;  
+}
+
+@keyframes mole {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
